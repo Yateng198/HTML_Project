@@ -1,0 +1,237 @@
+<html>
+	<head>
+	<!--
+   New Perspectives on HTML and XHTML 5th Edition
+   Final Project
+
+   Final_Project Home_Page
+    Author: Yateng Geng  
+   Date:   Oct.19 2022          
+
+   Filename:     HomePage.html
+   Supporting files: 
+-->
+		 <title>Annabelle | Fashion </title>	
+		 <link href = "../JoinUs/joinUsFormat.css" rel = "stylesheet"  type = "text/css" />
+	</head>
+    <body>
+        <h1><a href="../HomePage.html" title="Back to Home page"><img id="logo" src="../HomePage/logo.jpg" alt="Our new Logo" width = "400px" height = "150px"/></a>
+            <b>Life is not Perfect but Your Outfit Can be</b>
+        </h1>
+        <div id = "links">
+            <a id = "newArriving"  href = "../NewArriving/New-Arriving.html" title = "Go to new arriving page" alt = "Page for New Arrivings" target = "window">New Arriving</a>
+            <a id = "onSale"  href = "../OnSale/onSale.html" title = "Go to on-sale page" alt = "Page for on-sale" target = "window">On SALE</a>
+            <a id ="Men" href = "../Men-Page.html" title = "Go to Men page" alt = "Page for Men" target = "window">Men</a>
+            <a id = "Women"  href = "../Women-Page.html" title = "Go to Women page" alt = "Page for Women" target = "window">Women</a>
+            <a id = "Kids" href = "../Kids/kids.html" title = "Go to Kids page" alt = "Page for Kids" target = "window">Kids</a>
+            <a id ="Register" href = "../Register/register.html" title = "Go to register page" alt = "Page for registration" target = "window">Register Now</a>
+            <a id = "Reserve" href = "../Reserve/reserve.html" title = "Go to reserve page" alt = "Page for reserve" target = "window">Reserve Now</a>
+            <a id = "carrier" href = "../JoinUs/joinUs.html" title = "Go to carrier page" alt = "Page for carrier" target = "window">Join Us</a>
+        </div>
+        
+        <hr />
+
+        <div class="title">
+           
+            <p> <b>HI, WE"RE GLAD YOU ARE HERE!</b> </p>
+            <img src="../JoinUs/glad.jpg" alt="" width="1600px">
+
+        </div>
+
+        <div id="layOut">
+            <div id="explanation">
+                <h2>About Us</h2>
+                <h5>Discover all the benefit we're here to make it your moment</h5>
+
+                <iframe width="600px" height="400px" src="https://www.youtube.com/embed/K2sc_ck5BZU" frameborder="0" >
+
+                </iframe>
+
+                
+               
+                <p> <b style="font-size: 30px">What We Offering</b> <br> <br>
+                   <b>Flexible Work Hours <br></b> 
+                        Want to take Friday off or work from home all week? No problem! <br>
+                        We trust our employees and truly believe in work-life balance as a key to productive work. <br>
+
+                    <b>Healthcare  <br></b>
+                        Our comprehensive healthcare package includes dental coverage and options to cover your whole family. <br>
+
+                    <b>Best Working Environment <br></b>    
+                        Our modern offices have everything you need in your daily work: sit/stand workstations, free food (drinks/coffee, fruits, cookies, etc.), spaces to relax, PlayStation, ping-pong table, and free parking for your car or a bike. <br>
+
+                    <b>Room to Grow <br></b>
+                        We make sure everyone has an opportunity to grow. <br>
+                        Found something you want to learn? Great! We'll pay for your training/education. <br>
+
+                    <b>Everyone Has a Voice <br></b>
+                        Innovation doesn't have a hierarchy. We make sure everyone is heard, considered and respected. <br>
+
+                    <b>Sports <br></b>    
+                            We subsidize your gym membership, or fees for any other sport you prefer. <br>
+                            Also you're welcome to join our basketball team playing once a week near the office. <br>
+                </p>
+    
+                <p> <b style="font-size: 30px;">Openning Position</b> <br> <br>
+                   <table class="positions" cellspacing = "10px">
+                    <tr>
+                        <td>Position</td>
+                        <td>location</td>
+                        <td>Post Time</td>
+                        <td>Pos_ID</td>
+                    </tr>
+                    <tr>
+                        <td>Alteration & Tailor Shop - Admin Support - Downtown Seattle</td>
+                        <td>Livingston, NJ</td>
+                        <td>Posted Today</td>
+                        <td>R-513326</td>
+                    </tr>
+                    <tr>
+                        <td>Seasonal Retail Sales - Men's Apparel</td>
+                        <td>Thousand Oaks, CA</td>
+                        <td>Nov,11</td>
+                        <td>R-497709</td>
+                    </tr>
+                    <tr>
+                        <td>Finance Manager - Supply Chain Reporting</td>
+                        <td>Seattle, WA</td>
+                        <td>Nov, 06</td>
+                        <td>R-480297</td>
+                    </tr>
+
+                   </table>
+            </div>
+            <div id="registeForm">
+                <h2>Join Us Today!</h2>
+                <h5>Become a Member — don’t miss out on rewards, perks, invitation to events and contests.</h5>
+                <br>
+                <p><b>Already Submit an application? Check Statue</b> <a href="https://www.nordstrom.ca/signin?cm_sp=SI_SP_A-_-SI_SP_B-_-SI_SP_C&origin=
+                    tab&ReturnURL=https%3A%2F%2Fwww.nordstrom.ca%2F%3Forigin%3Dtab-logo" title="My Account">Here</a></p>
+                <br />
+                <p><i>Please check your spam/junk inbox for your application updates.</i></p>
+                <br />
+    
+                <form name="registerForm" id="registerForm" action="RegisterScript.php">
+    
+                    
+                        <label class="labelblock">
+                            First Name <span>*</span>
+                            <input type="text" id="fname">                    
+                        </label>
+                        <label class="labelblock">
+                            Last Name <span>*</span>
+                            <input type="text" id="lname">
+                        </label>
+                        <label class="labelblock">
+                            Date of Birth <span>*</span>
+                            <input type="date" id="bday">
+                            <p style="text-align: left;">So we can send you your 15% off birthday discount code</p>
+                        </label>
+                        <label class="labelblock">
+                            Mobile
+                            <input type="text" id="mobile" value="4384564567">
+                        </label>
+                        <label class="labelblock">
+                            Email <span>*</span>
+                            <input type="email" id="email" value="example@annbelle.com">
+                        </label>
+                        <label class="labelblock">
+                            Gender 
+                            <select name="gender" id="gender">
+                                <optgroup label="Select A Gender ">
+                                    <option>Prefer Not To Say</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </optgroup>
+                            </select>
+                        </label>
+    
+                        <label class="labelblock">
+                            Position
+    
+                            <select name="addressType" id="select">
+                                
+                                <optgroup label="USA">
+                                     <option>Alteration & Tailor Shop - Admin Support</option>
+                                     <option>Alteration &  Admin Support</option>
+                                     <option>Beauty Counter Manager</option>
+                                </optgroup>
+                                <optgroup label="Canada">
+                                     <option>Beauty Counter Manager</option>
+                                     <option>Account Services Collections Specialist</option>
+                                     <option>Retail Sales</option>
+                                     <option>Seasonal Retail Cashier</option>
+                                </optgroup>
+                             </select>
+                        </label>
+                        
+                        <label class="labelblock">
+                            Street Address <span>*</span>
+                            <input type="text" id="sadd">
+                        </label>
+                        <label class="labelblock">
+                            City <span>*</span>
+                            <input type="text" id="city">
+                        </label>
+                        <label class="labelblock">
+                            State <span>*</span>
+                            <input type="text" id="state" value="QC" maxlength="2">
+                        </label>
+                        <label class="labelblock">
+                            ZIP <span>*</span>
+                            <input type="text" id="zip">
+                        </label>
+                        <label class="labelblock">
+                            C.V <span>*</span>
+                            <input type="file" id="pwd">
+                        </label>
+                        
+                        <label class="labelcheckbox">
+                            <input type="checkbox" id="subscribe">
+                            I agree to receive email marketing communications from Annabelle
+                        </label>
+                        <label class="labelcheckbox">
+                            <input type="checkbox" id="policy">
+                            I have read and accept the Annabelle <a href="https://www.nordstrom.ca/browse/customer-service/policy/privacy">Privacy Policy</a>
+                        </label>
+    
+                        <input type="submit" value="Apply" id="registe"
+                        onclick="alert('Thank You!' )"> <br>
+                        <input type="reset" value="Cancel" id="cancel">
+    
+                   
+                </form>
+    
+            </div>
+        </div>
+
+
+
+        <hr>
+
+        <address style="color: rgb(52, 54, 47); text-align: center;">Our store location:<br>
+            1465 Crescent St,
+            Montreal, Quebec
+            H3G 2B2 </address>
+            <table class="social" >
+                <tr id="follow">
+                    <td colspan="5" > 
+                        Follow us on Social Media
+                    </td>
+                </tr>
+                <tr>
+                    <td id="facebook"><a href="https://www.facebook.com"><img src="../HomePage/imgs/facebook.png" alt=" " class="simgs"></a></td>
+                    <td id="ins"><a href="https://www.instagram.com/"><img src="../HomePage/imgs/instagram.png" alt=" " class="simgs"></a></td>
+                    <td id="twitter"><a href="https://www.twitter.com/"><img src="../HomePage/imgs/twitter-sign.png" alt=" "class="simgs"></a></td>
+                    <td id="youtube"><a href="https://www.youtube.com/"><img src="../HomePage/imgs/youtube.png" alt=" " class="simgs"></a></td>
+                    <td id="pinterest"><a href="https://www.pinterest.com/"><img src="../HomePage/imgs/pinterest.png" alt=" " class="simgs"></a></td>
+                </tr>
+            </table>
+        <p id="email" style="color: rgb(93, 93, 96); text-align: center; font-family: Arial, Helvetica, sans-serif;">
+            If you have any question, you can contact us 
+            <a href="mailto: annbellemtl@gmail.com">HERE </a> </p>
+        
+    </body>
+
+
+</html>

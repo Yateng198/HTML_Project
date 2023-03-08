@@ -1,0 +1,259 @@
+<html>
+	<head>
+	<!--
+   New Perspectives on HTML and XHTML 5th Edition
+   Final Project
+
+   Final_Project Home_Page
+    Author: Yateng Geng  
+   Date:   Oct.19 2022          
+
+   Filename:     HomePage.html
+   Supporting files: 
+-->
+		 <title>Annabelle | Fashion </title>	
+		 <link href = "../item1/item1Format.css" rel = "stylesheet"  type = "text/css" />
+	</head>
+    <body>
+        <h1><a href="../../HomePage.html" title="Back to Home page"><img id="logo" src="../imgs/logo.jpg" alt="Our new Logo" width = "400px" height = "150px"/></a>
+            <b>Life is not Perfect but Your Outfit Can be</b>
+        </h1>
+        <div id = "links">
+            <a id = "newArriving"  href = "../../NewArriving/New-Arriving.html" title = "Go to new arriving page" alt = "Page for New Arrivings" target = "window">New Arriving</a>
+            <a id = "onSale"  href = "../../OnSale/onSale.html" title = "Go to on-sale page" alt = "Page for on-sale" target = "window">On SALE</a>
+            <a id ="Men" href = "../../Men-Page.html" title = "Go to Men page" alt = "Page for Men" target = "window">Men</a>
+            <a id = "Women"  href = "../../Women-Page.html" title = "Go to Women page" alt = "Page for Women" target = "window">Women</a>
+            <a id = "Kids" href = "../../Kids/kids.html" title = "Go to Kids page" alt = "Page for Kids" target = "window">Kids</a>
+            <a id ="Register" href = "../../Register/register.html" title = "Go to register page" alt = "Page for registration" target = "window">Register Now</a>
+            <a id = "Reserve" href = "../../Reserve/reserve.html" title = "Go to reserve page" alt = "Page for reserve" target = "window">Reserve Now</a>
+            <a id = "carrier" href = "../../JoinUs/joinUs.html" title = "Go to carrier page" alt = "Page for carrier" target = "window">Join Us</a>
+        </div>
+        
+        <hr />
+        <div class="product">
+            <div class="product-small-img">
+                <img src="../item1/wit1imgs/img1.webp"   alt=" " onclick="myFounction(this)">
+                <img src="../item1/wit1imgs/img2.webp"  alt=" " onclick="myFounction(this)">
+                <img src="../item1/wit1imgs/img3.webp"  alt=" " onclick="myFounction(this)">
+                <img src="../item1/wit1imgs/img4.webp"  alt=" " onclick="myFounction(this)">
+                <img src="../item1/wit1imgs/img5.webp"  alt=" " onclick="myFounction(this)">
+              
+            </div>
+            <div class="img-container">
+                <img id="imageBox" src="../item1/wit1imgs/img1.webp" alt="">
+
+
+            </div>
+        </div>
+
+        <script>
+            function myFounction(smallImg){
+                var fullImg = document.getElementById("imageBox")
+                fullImg.src = smallImg.src;
+            }
+        </script>
+
+        <div class="choice">
+            <form name="choiceForm" id="choiceForm" action="RegisterScript.php">
+            <table id="cart" cellspacing="30px">
+                <tr>
+                    <td class="title">Cozy Active Pocket Joggers <br> <a href="https://www.nordstrom.ca/brands/zella--5227?origin=productBrandLink">ZELLA</a></td>
+                </tr>
+                <tr>
+                    <td class="currentPrice">$32.45 - $35.40
+                        (Up to 45% off)</td>
+                </tr>
+                <tr>
+                    <td class="price">$59</td>
+                </tr>
+                <tr>
+                    <td class="ship"><img src="../imgs/shiptruck.png" alt="" height="20px">FREE STANDARD SHIPPING</td>
+                </tr>
+                <tr>
+                    <td class="shortdesc">A stretchy, wide waistband and cuffs provide a comfy fit in relaxed 
+                        joggers made from a stretchy knit.</td>
+                </tr>
+                <tr>
+                    <td class="size">
+                        <select name="sizeselect" id="sizeselect">
+                            <optgroup label="Choose a Size">
+                            <option value="smal">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                            <option value="x-large">X-Large</option>
+                            <option value="xx-large">XX-Large</option>
+                            </optgroup>                
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="guide"><a href="sizeGuide.html" title="popoutTheGuide">Size Guide</a></td>
+                </tr>
+                <tr>
+                    <td class="color">
+                        <select name="colorselect" id="colorselect">
+                            <optgroup label="Choose a Color">
+                            <option>Grey Melange</option>
+                            <option>Black</option>
+                           
+                            </optgroup>                
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="radiobox">
+                             <input type="radio" id="greyRadio" value="grey" name="colorType">
+                             Grey
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="radiobox">
+                            <input type="radio" id="blackRadio" value="black" name="colorType">
+                           Black
+                       </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="radiobox">
+                            <input type="radio" id="pickupRadio" value="pickup" name="getType">
+                            Free Pickup Available for pickup
+                       </label>
+                      
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label class="radiobox">
+                            <input type="radio" id="shipRadio" value="ship" name="getType">
+                            Free SHIPPING <br> <i>Arrives between Thu, Nov 10 - Wed, Nov 16</i> 
+                       </label>
+                       
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="submit">
+                            <input id="add" type="submit" value="Add To Cart" >
+                        </label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label class="cancel">
+                            <input id="cancel" type="reset" value="Cancel">
+                        </label>
+                    </td>
+                </tr>
+
+
+
+            </table>
+        </form>
+
+        </div>
+
+        <div class="desc">
+            <div class="descLeft">
+                <p><b>SIZE INFO</b></p>
+                <ul>
+                    <li>XXS=00, XS=0-2, S=4-6, M=8-10, L=12-14, XL=16-18 (14W), XXL=20 (16W).</li>
+                    <li>High rise.</li>
+                </ul>
+
+                <p><b>DETAILS & CARE</b></p>
+                <p>A stretchy, wide waistband and cuffs 
+                    provide a comfy fit in relaxed joggers 
+                    made from a stretchy knit.</p>
+                <ul>
+                    <li>27" inseam; 10" leg opening; 11" front rise; 14 1/2" back rise (size Medium)</li>
+                    <li>Elastic waist</li>
+                    <li>Side-seam pockets</li>
+                    <li>88% polyester, 12% spandex</li>
+                    <li>Machine wash, tumble dry</li>
+                    <li>Imported</li>
+                    <li>Women's Clothing</li>
+                    <li>Item #6082813</li>
+                </ul>
+
+                <p><b>Helpful info:</b></p>
+                <a id="guidepdf" href="../../fitguide.pdf">Fit guides</a> <br>
+                    (undefined)
+                <p><b>Free Shipping & Returns:</b></p>
+                <p>This product isn't available for Same-Day Delivery in 
+                    your area. Other expedited shipping methods are available at Checkout.</p>
+            </div>
+            <div class="descRight">
+                <p><img height="20px" src="../imgs/gift.png" alt=""><b>     GIFT OPTIONS</b></p>
+                <p>Choose your gift options at Checkout. Some items may 
+                    not be eligible for all gift options.</p>
+                <p><b>Pickup & In-Store Purchases</b></p>
+                <p><img height="20px" src="../imgs/message.png" alt=" ">     Printed gift message (free)</p>
+                <p><img height="20px" src="../imgs/gift.png" alt=" ">     Nordstrom gift box (free)</p>
+                <p><img height="20px" src="../imgs/signature.png" alt="">     Signature gift wrap ($7)</p>
+
+                <p><b>Need help finding the perfect gift? We've got you covered.</b></p>
+                <a id="buttona" href="gifts.html">
+                <div id="button">
+                    <p>Shop Gifts</p>
+                </div>
+                </a>
+                <br>
+                <p ><b><a id="zella" href="zella.html">ZELLA</a></b></p>
+
+                <p id="zelladesc">Step into your training schedule and maximize the power of your mind, 
+                    body and energy. Stay focused, go further, be invincible and achieve 
+                    balance in Zella athletic wear, designed with ultimate comfort 
+                    innovation and peak performance technology to enhance your workout. 
+                    For men, women and girls with ambitious fitness goals and a commitment 
+                    to wellness. Available exclusively at Nordstrom.</p>
+            </div>
+
+
+
+        </div>
+        
+
+        
+
+        <div class="foot">
+            <hr />
+
+            <address style="color: rgb(52, 54, 47); text-align: center;">Our store location:<br>
+                1465 Crescent St,
+                Montreal, Quebec
+                H3G 2B2 </address>
+                <table class="social" >
+                    <tr id="follow">
+                        <td colspan="5" > 
+                            Follow us on Social Media
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="facebook"><a href="https://www.facebook.com"><img src="../imgs/facebook.png" alt=" " class="simgs"></a></td>
+                        <td id="ins"><a href="https://www.instagram.com/"><img src="../imgs/instagram.png" alt=" " class="simgs"></a></td>
+                        <td id="twitter"><a href="https://www.twitter.com/"><img src="../imgs/twitter-sign.png" alt=" "class="simgs"></a></td>
+                        <td id="youtube"><a href="https://www.youtube.com/"><img src="../imgs/youtube.png" alt=" " class="simgs"></a></td>
+                        <td id="pinterest"><a href="https://www.pinterest.com/"><img src="../imgs/pinterest.png" alt=" " class="simgs"></a></td>
+                    </tr>
+                </table>
+            <p id="email" style="color: rgb(93, 93, 96); text-align: center; font-family: Arial, Helvetica, sans-serif;">
+                If you have any question, you can contact us 
+                <a href="mailto: annbellemtl@gmail.com">HERE </a> </p>
+
+
+
+
+        </div>
+
+       
+        
+    </body>
+
+
+</html>

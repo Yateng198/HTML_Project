@@ -1,0 +1,183 @@
+body{margin: 10 10 10 10; border-top-width: 20px; border-top-style: solid; border-top-color: black}
+#links{
+    margin-left: 200px
+}
+
+hr{
+    margin-top: 10px;
+    height: 3px; 
+    background-color: rgb(54, 51, 51);
+}
+
+
+#links a {margin: 0 60 0 60; text-decoration: none; letter-spacing: 1.5px; 
+        font-size: 20px; font-family: Arial,Helvetica,sans-serif;color: darkgray;}
+.simgs{
+    height: 20px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+#follow{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(93, 93, 96);
+}
+table.social{
+    margin-top: 15px;
+    margin-left: 875px;
+}
+#email a{
+    color: rgb(93, 93, 96);
+
+}
+
+h1{letter-spacing: 4px;
+    font-family: Arial,Helvetica,sans-serif;
+    color: darkgray;
+    margin-left: 255px;
+}
+
+h2, h5 {
+    font-family: Arial,Helvetica,sans-serif;
+    color: rgb(93, 91, 91);
+    text-align: center;
+   
+}
+
+#explanation{
+    margin-left: 200px;
+    width: 850px;
+    border-right: 2px solid rgb(199, 195, 195);
+
+
+}
+#registeForm{
+    margin-left: 50px;
+    margin-right: 255px;
+    width: 850px;
+}
+#layOut{
+    display: flex;
+    flex-direction: row;
+}
+table.benefit tr{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 25px;
+}
+table.benefit{
+    margin-left: 150px;
+}
+
+#explanation p{
+    margin: 20 120 20 120;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+ul{
+    margin: 20 120 20 90;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+#registeForm p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+#registeForm p{
+    text-align: center;
+}
+#registeForm a{
+    text-decoration: underline;
+    color: black;
+}
+
+label.labelblock{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    display: block;
+    position: relative;
+    left: 200px;
+    top: 0px;
+    margin-top: 45px;
+
+}
+
+label.labelblock select{
+    width: 300px;
+    height: 35px;
+    position: absolute;
+    left: 200px;
+    
+}
+
+label.labelblock input{
+    width: 300px;
+    height: 35px;
+    position: absolute;
+    left: 200px;
+   
+    
+}
+
+label.labelblock span{
+    color: red;
+}
+label.labelblock p{
+    font-size: small;
+    margin-left: 200px;
+}
+
+label.labelcheckbox{
+    display: block;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+#registe{
+    color: aliceblue;
+    margin:30 50 20 400;
+    width: 300px;
+    height: 30px;
+    background-color: black;
+}
+#cancel{
+    color: aliceblue;
+    margin:0 50 20 400;
+    width: 300px;
+    height: 30px;
+    background-color: black;
+}
+
+.title{
+    position: relative;
+    width: 1600px;
+    height: 500px;
+    margin-left: 260px;
+    margin-bottom: 10px;
+}
+
+
+.title p{
+    text-align: center;
+    padding: 150px 200px 10px 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 35px;
+    color: azure;
+    letter-spacing: 2px;
+
+    position: absolute;
+}
+.title b{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    letter-spacing: 5px;
+}
+
+#explanation iframe{
+    margin-left: 120px;
+}

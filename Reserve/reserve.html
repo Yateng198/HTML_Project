@@ -1,0 +1,224 @@
+<html>
+	<head>
+	<!--
+   New Perspectives on HTML and XHTML 5th Edition
+   Final Project
+
+   Final_Project Home_Page
+    Author: Yateng Geng  
+   Date:   Oct.19 2022          
+
+   Filename:     HomePage.html
+   Supporting files: 
+-->
+		 <title>Annabelle | Fashion </title>	
+		 <link href = "../Reserve/reserveFormat.css" rel = "stylesheet"  type = "text/css" />
+	</head>
+    <body>
+        <h1><a href="../HomePage.html" title="Back to Home page"><img id="logo" src="../HomePage/logo.jpg" alt="Our new Logo" width = "400px" height = "150px"/></a>
+            <b>Life is not Perfect but Your Outfit Can be</b>
+        </h1>
+        <div id = "links">
+            <a id = "newArriving"  href = "../NewArriving/New-Arriving.html" title = "Go to new arriving page" alt = "Page for New Arrivings" target = "window">New Arriving</a>
+            <a id = "onSale"  href = "../OnSale/onSale.html" title = "Go to on-sale page" alt = "Page for on-sale" target = "window">On SALE</a>
+            <a id ="Men" href = "../Men-Page.html" title = "Go to Men page" alt = "Page for Men" target = "window">Men</a>
+            <a id = "Women"  href = "../Women-Page.html" title = "Go to Women page" alt = "Page for Women" target = "window">Women</a>
+            <a id = "Kids" href = "../Kids/kids.html" title = "Go to Kids page" alt = "Page for Kids" target = "window">Kids</a>
+            <a id ="Register" href = "../Register/register.html" title = "Go to register page" alt = "Page for registration" target = "window">Register Now</a>
+            <a id = "Reserve" href = "../Reserve/reserve.html" title = "Go to reserve page" alt = "Page for reserve" target = "window">Reserve Now</a>
+            <a id = "carrier" href = "../JoinUs/joinUs.html" title = "Go to carrier page" alt = "Page for carrier" target = "window">Join Us</a>
+        </div>
+        
+        <hr />
+
+        <div class="title">
+            <p>Welcome to the world of <br>
+                <b><i>Annabelle</i></b> <br>
+                Take your Appointment now <br> to discover a world of exclusive <br>
+                 fashion updates and VIP offers.</p>
+            <img src="../JoinUs/here.png" alt="" width="1600px">
+
+        </div>
+
+     <div id="layOut">
+        <div id="explanation">
+            <h2>EVER NEW MELBOURNE</h2>
+            <h5>Discover all the ways we're here to make it your moment</h5>
+            <table class="benefit">
+                <tr>
+                    <td><img src="../Register/imgs/Reward03-welcome.webp" alt="Reward03-welcome" title="Welcome Gift">
+                    </td>
+                    <td><img src="../Register/imgs/reward02--birthday_1x_1_1.webp" alt="reward02--birthday_1x_1_1" title="Birthday Gift">
+                    </td>
+                </tr>
+                <tr>
+                    <td> Receive 15% off on your first <br> full-priced transaction of $100 or more.</td>
+                    <td>Celebrate in style with a 15% <br> off birthday discount code</td>
+                </tr>
+
+                <tr>
+                    <td><img src="../Register/imgs/reward05--gain_1x_1_1_.webp" alt="reward05--gain_1x_1_1_" title="Gain More"></td>
+                    <td><img src="../Register/imgs/reward06--unlock_1x_1.webp" alt="reward06--unlock_1x_1" title="Exclusive"></td>
+                </tr>
+                <tr>
+                    <td>
+                        Be first in, best-dressed with <br> new collection and sale previews
+                    </td>
+                    <td>
+                        Enjoy plenty of surprise rewards <br> and offers throughout the year.
+                    </td>
+                </tr>
+            </table>
+            <p> <b>Talk to Your prefer Designer In Person</b> <br> <br>
+                We take care to keep the information in our records as accurate, 
+                complete and up to date as necessary for the purposes for which it 
+                is used. However, we also rely on you to tell us when your information 
+                changes. You may update your personal information by contacting us using 
+                our contact information in the “Contact Us/Complaints” section below.
+            </p>
+
+            <p> <b>Customize Your Own Style</b> <br> <br>
+                You have the right to access personal information we hold about you and to 
+                have any concerns you may have over our policies and practices addressed. 
+                In addition, you have the right to obtain information regarding our policies 
+                and practices with respect to our use of service providers outside your 
+                jurisdiction of residence. To access your information, discuss your concerns 
+                or learn more about our policies and practices please see our contact information 
+                in the “Contact Us” section below.  
+            </p>
+            <ul>
+                <li><b>Schedule in your experience with our style experts to help guide you in building out your wardrobe.</b></li><br>
+                <li>If you have registered to receive email marketing communications</li>
+                <li>Ever New and to create an account for you for any membership or loyalty programs.</li>
+                <li> To manage your preferences or to unsubscribe,</li>
+                <li>Alternatively, you may click to unsubscribe from the bottom of any of our email marketing communications.</li>
+            </ul>
+        </div>
+        <div id="registeForm">
+            <h2>Take An Appointment Now!</h2>
+            <h5>Before visiting — don’t miss out on rewards, perks, invitation to events and contests.</h5>
+            <br>
+            <p><b>Already have an Appointment?</b> <a href="https://www.nordstrom.ca/signin?cm_sp=SI_SP_A-_-SI_SP_B-_-SI_SP_C&origin=
+                tab&ReturnURL=https%3A%2F%2Fwww.nordstrom.ca%2F%3Forigin%3Dtab-logo" title="My Account">Manage Here</a></p>
+            <br />
+            <p><i>Please check your spam/junk inbox for your Confirmation.</i></p>
+            <br />
+
+            <form name="registerForm" id="registerForm" action="RegisterScript.php">
+
+                
+                    <label class="labelblock">
+                        First Name <span>*</span>
+                        <input type="text" id="fname">                    
+                    </label>
+                    <label class="labelblock">
+                        Last Name <span>*</span>
+                        <input type="text" id="lname">
+                    </label>
+                    <label class="labelblock">
+                        Appointment <span>*</span>
+                        <input type="date" id="bday" name="date1">
+                        <p style="text-align: left;">So we can send you your 15% off birthday discount code</p>
+                    </label>
+                    <label class="labelblock">
+                        Mobile
+                        <input type="text" id="mobile" value="4384564567">
+                    </label>
+                    <label class="labelblock">
+                        Email <span>*</span>
+                        <input type="email" id="email" value="example@annbelle.com">
+                    </label>
+                    <label class="labelblock">
+                        Gender 
+                        <select name="gender" id="gender">
+                            <optgroup label="Select A Gender ">
+                                <option>Prefer Not To Say</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                            </optgroup>
+                        </select>
+                    </label>
+
+                    <label class="labelblock">
+                        Your Intereste
+
+                        <select name="addressType" id="select">
+                            
+                            <optgroup label="Male">
+                                 <option>Clothing</option>
+                                 <option>Shoes</option>
+                                 <option>Accessories</option>
+                            </optgroup>
+                            <optgroup label="Female">
+                                 <option>Clothing</option>
+                                 <option>Shoes</option>
+                                 <option>Accessories</option>
+                                 <option>Jewelry</option>
+                            </optgroup>
+                         </select>
+                    </label>
+                    
+                    <label class="labelblock">
+                        Street Address <span>*</span>
+                        <input type="text" id="sadd">
+                    </label>
+                    <label class="labelblock">
+                        City <span>*</span>
+                        <input type="text" id="city">
+                    </label>
+                    <label class="labelblock">
+                        State <span>*</span>
+                        <input type="text" id="state" value="QC" maxlength="2">
+                    </label>
+                    <label class="labelblock">
+                        ZIP <span>*</span>
+                        <input type="text" id="zip">
+                    </label>
+                    
+                    <label class="labelcheckbox">
+                        <input type="checkbox" id="subscribe">
+                        I agree to receive email marketing communications from Annabelle
+                    </label>
+                    <label class="labelcheckbox">
+                        <input type="checkbox" id="policy">
+                        I have read and accept the Annabelle <a href="https://www.nordstrom.ca/browse/customer-service/policy/privacy">Privacy Policy</a>
+                    </label>
+
+                    <input type="submit" value="Comfirm" id="registe" onclick="alert('Your Appointment at: ' + document.registerForm.date1.value + 'is confirmed! Thank you')"> <br>
+                    <input type="reset" value="Cancel" id="cancel">
+
+               
+            </form>
+
+        </div>
+    </div>
+
+        
+    
+
+    <hr style="height: 3px; background-color: black;" />
+
+			<address style="color: rgb(52, 54, 47); text-align: center;">Our store location:<br>
+				1465 Crescent St,
+				Montreal, Quebec
+				H3G 2B2 </address>
+				<table class="social" >
+					<tr id="follow">
+						<td colspan="5" > 
+							Follow us on Social Media
+						</td>
+					</tr>
+					<tr>
+                        <td id="facebook"><a href="https://www.facebook.com"><img src="../HomePage/imgs/facebook.png" alt=" " class="simgs"></a></td>
+                        <td id="ins"><a href="https://www.instagram.com/"><img src="../HomePage/imgs/instagram.png" alt=" " class="simgs"></a></td>
+                        <td id="twitter"><a href="https://www.twitter.com/"><img src="../HomePage/imgs/twitter-sign.png" alt=" "class="simgs"></a></td>
+                        <td id="youtube"><a href="https://www.youtube.com/"><img src="../HomePage/imgs/youtube.png" alt=" " class="simgs"></a></td>
+                        <td id="pinterest"><a href="https://www.pinterest.com/"><img src="../HomePage/imgs/pinterest.png" alt=" " class="simgs"></a></td>
+					</tr>
+				</table>
+			<p id="email" style="color: rgb(93, 93, 96); text-align: center; font-family: Arial, Helvetica, sans-serif;">
+				If you have any question, you can contact us 
+				<a href="mailto: annbellemtl@gmail.com">HERE </a> </p>
+            </body>
+
+</html>

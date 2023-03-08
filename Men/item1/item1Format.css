@@ -1,0 +1,220 @@
+body{margin: 10 10 10 10; border-top-width: 20px; border-top-style: solid; border-top-color: black}
+#links{
+    margin-left: 200px
+}
+
+hr{
+    margin-top: 10px;
+    height: 3px; 
+    background-color: rgb(54, 51, 51);
+}
+
+.foot{
+    margin-top: 30px;
+}
+
+
+#links a {margin: 0 60 0 60; text-decoration: none; letter-spacing: 1.5px; 
+        font-size: 20px; font-family: Arial,Helvetica,sans-serif;color: darkgray;}
+
+
+h1{letter-spacing: 4px;
+    font-family: Arial,Helvetica,sans-serif;
+    color: darkgray;
+    margin-left: 255px;
+}
+
+.choice{
+    
+    height: 1000px;
+    margin: 30 320 30 1300;
+
+}
+
+
+.product-small-img img{
+    height: 150px;
+    margin: 10px;
+    cursor: pointer;
+    display: block;
+    opacity: 0.5;
+}
+.product-small-img img:hover{
+    opacity: 1;
+}
+.product-small-img{
+    float: left;
+    padding: 30px;
+}
+.product{
+    top: 72%;
+    left: 700px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.img-container img{
+    height: 1000px;
+}
+.img-container{
+    float: right;
+}
+
+
+.simgs{
+    height: 20px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+#follow{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(93, 93, 96);
+}
+table.social{
+    margin-top: 15px;
+    margin-left: 875px;
+}
+#email a{
+    color: rgb(93, 93, 96);
+
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    letter-spacing: 3px;
+
+}
+.title a{
+    text-decoration: none;
+    font-family: Arial,Helvetica,sans-serif;
+    color: darkgray;
+    font-size: small;
+
+}
+
+.ship{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    letter-spacing: 2px;
+}
+.currentPrice{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: red;
+}
+
+.price{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-decoration: line-through;
+}
+.shortdesc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding-right: 180px;
+    letter-spacing: 1px;
+    color:lightgray;
+}
+
+#sizeselect{
+    width: 400px;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+#guide a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: lightgray;
+}
+#guide{
+    padding-left: 350px;
+}
+
+#colorselect{
+    width: 400px;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.radiobox{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.radiobox i{
+    margin: 25px;
+}
+
+#add{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    color: aliceblue;
+    margin:30 50 20 0;
+    width: 400px;
+    height: 50px;
+    background-color: black;
+}
+
+#cancel{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    color: aliceblue;
+    margin:30 50 20 0;
+    width: 400px;
+    height: 50px;
+    background-color: black;
+}
+
+.desc{
+    border-top: 2px solid rgb(159, 157, 157);
+    margin: 60 450 30 300;
+    display: flex;
+    flex-direction: row;
+    letter-spacing: 1.5px;
+}
+
+
+.descLeft{
+    width: 750px;
+    border-right: 2px solid rgb(159, 157, 157);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.descRight{
+    width: 750px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+#button{
+    width: 200px;
+    height: 50px;
+    border: 2px solid rgb(159, 157, 157);
+}
+#buttona{
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(159, 157, 157);
+}
+#guidepdf{
+    color: black;
+}
+#zella{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: black;
+}
+
+#zelladesc{
+    font-size: medium;
+}
+
+
+
